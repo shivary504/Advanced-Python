@@ -31,8 +31,6 @@ class Company:
         for emp in self.employees:
             emp.display()
 
-
-# Main Program
 company = Company()
 
 n = int(input("Enter number of employees: "))
